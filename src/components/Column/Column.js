@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './Column.scss';
 import PropTypes from 'prop-types';
+import Card from '../Card/Card.js';
+import Creator from '../Creator/Creator.js';
 
 class Column extends React.Component {
   static propTypes = {
