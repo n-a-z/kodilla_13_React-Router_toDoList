@@ -7,6 +7,9 @@ import PropTypes from 'prop-types';
 import Column from '../Column/Column.js';
 
 class List extends React.Component {
+  state = {
+    columns: this.props.columns || [],
+  };
   static propTypes = {
     title: PropTypes.node.isRequired,
     image: PropTypes.string,
@@ -22,7 +25,9 @@ class List extends React.Component {
     return (
       <section className={styles.component}>
         <Hero titleText={this.props.title} imageUrl={this.props.image} />
-        <div className={styles.description}>{ReactHtmlParser(this.props.description)}</div>
+        <div className={styles.description}>
+          {ReactHtmlParser(this.props.description)}
+        </div>
         <div className={styles.columns}>
           <Column title='h3 01' />
           <Column title='h3 02' />
