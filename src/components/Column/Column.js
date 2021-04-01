@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 class Column extends React.Component {
   static propTypes = {
-    title: PropTypes.static,
+    title: PropTypes.string,
   };
 
   render() {
