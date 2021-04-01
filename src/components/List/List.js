@@ -9,6 +9,10 @@ class List extends React.Component {
     children: PropTypes.node,
   }
 
+  static defaultProps = {
+    children: <p>I can do all of the things!!!</p>,
+  }
+
   render() {
     return (
       <section className={styles.component}>
