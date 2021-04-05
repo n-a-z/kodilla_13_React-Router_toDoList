@@ -9,6 +9,21 @@ class Column extends React.Component {
     title: PropTypes.string,
   };
 
+  addCard(title) {
+    this.setState(state => (
+      {
+        cards: [
+          ...state.cards,
+          {
+            key: state.cards.length ? state.cards[state.cards.length-1].key+1 : 0,
+            title,
+            cards: []
+          }
+        ]
+      }
+    ));
+  }
+
   render() {
     return (
       <section className={styles.component}>
