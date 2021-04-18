@@ -12,6 +12,9 @@ export const settings = {
   },
   header: {
     defaultIcon: 'gem',
+    navInfo: 'Info',
+    navHome: 'Home',
+    navFaq: 'FAQ',
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
@@ -25,7 +28,7 @@ export const infoContents = {
   title: 'Info page',
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
   image:
-    'https://secureservercdn.net/198.71.233.138/kx5.c8b.myftpupload.com/wp-content/uploads/2019/11/about-us1.png',
+    'https://informatics.sourceweb.ag/wp-content/uploads/2018/02/about-us.png',
 };
 export const faqContents = {
   title: 'FAQ page',
