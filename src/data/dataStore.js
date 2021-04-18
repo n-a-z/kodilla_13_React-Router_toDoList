@@ -21,6 +21,17 @@ export const pageContents = {
   title: 'My first React app',
   subtitle: 'A simple to-do app, with lists, columns and cards',
 };
+export const infoContents = {
+  title: 'Info page',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+  image:
+    'https://secureservercdn.net/198.71.233.138/kx5.c8b.myftpupload.com/wp-content/uploads/2019/11/about-us1.png',
+};
+export const faqContents = {
+  title: 'FAQ page',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+  image: 'https://www.labsertchemical.com/image/catalog/FAQ%20Logo.png',
+};
 
 export const listData = {
   title: 'Things to do <sup>soon!</sup>',
