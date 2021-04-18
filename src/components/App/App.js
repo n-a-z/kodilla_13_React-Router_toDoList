@@ -5,16 +5,14 @@ import MainLayout from '../MainLayout/MainLayout';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 const App = () => (
-  <div>
+  <BrowserRouter>
     <MainLayout>
-      <BrowserRouter>
-        <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/info' component={Info} />
-        </Switch>
-      </BrowserRouter>
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/info' component={Info} />
+      </Switch>
     </MainLayout>
-  </div>
+  </BrowserRouter>
 );
 
 export default App;
