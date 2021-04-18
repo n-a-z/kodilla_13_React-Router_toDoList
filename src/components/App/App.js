@@ -8,9 +8,9 @@ class App extends React.Component {
     title: PropTypes.node,
     subtitle: PropTypes.node,
   };
-  
+
   render() {
-    const {title, subtitle} = this.props;
+    const { title, subtitle } = this.props;
     return (
       <main className={styles.component}>
         <h1 className={styles.title}>{title}</h1>
