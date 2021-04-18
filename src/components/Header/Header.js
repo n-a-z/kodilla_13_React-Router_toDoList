@@ -3,6 +3,7 @@ import { NavLink, Link } from 'react-router-dom';
 import Container from '../Container/Container';
 import styles from './Header.scss';
 import Icon from '../Icon/Icon';
+import {settings} from '../../data/dataStore.js';
 
 class Header extends React.Component {
   render() {
@@ -11,7 +12,7 @@ class Header extends React.Component {
         <Container>
           <div className={styles.wrapper}>
             <Link className={styles.logo} to='/'>
-              <Icon name='smile' />
+              <Icon name={settings.header.defaultIcon} />
             </Link>
             <nav>
               <NavLink exact to='/' activeClassName='active'>
