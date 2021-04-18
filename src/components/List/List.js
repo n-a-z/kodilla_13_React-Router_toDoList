@@ -4,8 +4,8 @@ import { settings } from '../../data/dataStore';
 import ReactHtmlParser from 'react-html-parser';
 import Hero from '../Hero/Hero.js';
 import PropTypes from 'prop-types';
-import Column from '../Column/Column.js';
-import Creator from '../Creator/Creator.js';
+//import Column from '../Column/Column.js';
+//import Creator from '../Creator/Creator.js';
 
 class List extends React.Component {
   state = {
@@ -45,6 +45,7 @@ class List extends React.Component {
         <div className={styles.description}>
           {ReactHtmlParser(this.props.description)}
         </div>
+        {/*
         <div className={styles.columns}>
           {this.state.columns.map(({ key, ...columnProps }) => (
             <Column key={key} {...columnProps} />
@@ -56,6 +57,7 @@ class List extends React.Component {
             action={title => this.addColumn(title)}
           />
         </div>
+          */}
       </section>
     );
   }
