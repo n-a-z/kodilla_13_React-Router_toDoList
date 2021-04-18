@@ -14,10 +14,10 @@ class Header extends React.Component {
               <Icon name='smile' />
             </Link>
             <nav>
-              <NavLink exact to='/'>
+              <NavLink exact to='/' activeClassName='active'>
                 Home
               </NavLink>
-              <NavLink exact to='/info'>
+              <NavLink exact to='/info' activeClassName='active'>
                 Info
               </NavLink>
             </nav>
