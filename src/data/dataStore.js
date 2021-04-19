@@ -100,13 +100,13 @@ const lists = [
     id: 'list-2',
     title: 'Things to never do',
     description: 'Coming soon',
-    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+    image: 'https://s.hdnux.com/photos/47/46/46/10381742/3/rawImage.jpg',
   },
   {
     id: 'list-3',
     title: 'Potpourri',
     description: 'Wildcard',
-    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+    image: 'https://cdn1.jysk.com/getimage/wd2.large/122441',
   },
 ];
 
