@@ -11,7 +11,7 @@ export const settings = {
     icon: 'search',
   },
   header: {
-    defaultIcon: 'gem',
+    defaultIcon: 'list-alt',
     navInfo: 'Info',
     navHome: 'Home',
     navFaq: 'FAQ',
